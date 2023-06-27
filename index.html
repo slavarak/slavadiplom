@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Автосервис</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container container--header">
+        <div class="header-logo">
+            <img src="./img/logo.jpg" alt="logo" class="header-logo__img">
+            <a href="index.html" class="header-logo__link">Monatour</a>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="container header-nav-content">
+            <a href="#" class="header-nav__link">Главная</a>
+            <a href="#" class="header-nav__link">О нас</a>
+            <a href="#" class="header-nav__link">Связаться с нами</a>
+        </div>
+    </div>     
+    </header>
+    <main>
+        <section class="promo">
+            <div class="container">
+                <div class="timer">
+                    <h2 class="timer__title">Действуют скидки! <br> До конца осталось:</h2>
+                    <!-- /.timer__title -->
+                    <div class="timer__items">
+                      <div class="timer__item timer__days">00</div>
+                      <div class="timer__item timer__hours">00</div>
+                      <div class="timer__item timer__minutes">00</div>
+                      <div class="timer__item timer__seconds">00</div>
+                    </div>
+                  </div>
+            </div>
+            <!-- /.container -->
+            <div class="container promo-slider">
+                <div class="promo-cart promo-slider__item promo-slider__item--active">
+                    <h1 class="promo-title">МЫ ЗНАЕМ СВОЮ РАБОТУ</h1>
+                    <p class="promo-text">Доверьте ваше авто профессионалам, которые действительно любят и знают свою работу.</p>
+                    <button class="button-promo">Услуги</button>
+                </div> 
+                <div class="promo-cart promo-slider__item">
+                    <h1 class="promo-title">НАМ ДОВЕРЯЮТ</h1>
+                    <p class="promo-text">Наши клиенты получают только качественную работу.</p>
+                    <button class="button-promo">Услуги</button>
+                </div> 
+                <div class="promo-cart promo-slider__item">
+                    <h1 class="promo-title">ЗА НАМИ ОПЫТ</h1>
+                    <p class="promo-text">Наша компания существует и работает уже более 8 лет.</p>
+                    <button class="button-promo">Услуги</button>
+                </div> 
+            </div>
+            <img src="./img/straight-left-arrow.png" alt="arrow" id="arrow-left" class="promo-slider__button arrow-left-img">
+            <img src="./img/straight-right-arrow.png" alt="arrow" id="arrow-right" class="promo-slider__button arrow-right-img">
+        </section>
+        <section class="master">
+            <div class="container">
+                <div class="master-content">
+                    <h3 class="master-title">Наши мастерские</h3>
+                    <div class="master-img">
+                        <img src="./img/masters5.jpg" alt="masters5" class="master-img__img">
+                        <img src="./img/masters4.jpg" alt="masters4" class="master-img__img">
+                        <img src="./img/masters3.jpg" alt="masters3" class="master-img__img">
+                        <img src="./img/masters2.jpg" alt="masters2" class="master-img__img">
+                        <img src="./img/masters1.jpg" alt="masters1" class="master-img__img">
+                        <img src="./img/masters6.jpg" alt="masters6" class="master-img__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="registr">
+            <div class="container">
+                <h3 class="registr-title">ЗАПИСЫВАЙТЕСЬ</h3>
+                <div class="registr-content">
+                    <div class="registr-content-contact">
+                        <p class="registr-name">Телефон <span class="registr-text1">+1(23)-45-67-890</span></p>
+                        <p class="registr-name">Адрес <span class="registr-text">г. Москва, ул. Тверская, дом. 1</span></p>
+                        <p class="registr-name">Skype <span class="registr-text">ukitcom</span></p>
+                        <p class="registr-name">E-mail <span class="registr-text">support@ukit.com</span></p>
+                        <div class="registr-img">
+                            <img src="./img/facebook.png" alt="facebook" class="registr-img__img">
+                            <img src="./img/vk.png" alt="vk" class="registr-img__img">
+                            <img src="./img/twitter.png" alt="twitter" class="registr-img__img">
+                        </div>
+                    </div>
+                    <form action="#" class="registr-form-form">
+                        <div class="registr-form-group">
+                            <label for="registr-name" class="registr-form-label">Имя</label>
+                            <input type="text" name="name" class="registr-form-input" id="registr-name" placeholder="Имя">
+                        </div>
+                        <div class="registr-form-group">
+                            <label for="registr-mail" class="registr-form-label">E-mail</label>
+                            <input type="email" name="email" class="registr-form-input" id="registr-mail" placeholder="E-mail">
+                        </div>
+                        <input type="submit" class="button__input" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="modal">
+            <div class="container">
+                <div class="service-content">
+                    <div class="service-content-card">
+                        <img src="./img/key.png" alt="key" class="service-content-card__img">
+                        <h2 class="service-content-card__title">Ремонт</h2>
+                        <p class="service-content-card__text">Мы приложим все усилия, чтобы ваше авто работало безупречно. Найдем решение в самых разнообразных ситуациях: от мелких неполадок в сложных проблем. </p>
+                    </div>
+                    <div class="service-content-card">
+                        <img src="./img/car.png" alt="key" class="service-content-card__img">
+                        <h2 class="service-content-card__title">Мойка</h2>
+                        <p class="service-content-card__text">Чистота автомобиля является не только залогом его хорошего вида, но и вашего здоровья и безопасности. СТО "ДРАЙВ" предлагает услуги высококачественной мойки автомобилей. </p>
+                    </div>
+                    <div class="service-content-card">
+                        <img src="./img/diagnostika.png" alt="key" class="service-content-card__img">
+                        <h2 class="service-content-card__title">Диагностика</h2>
+                        <p class="service-content-card__text">Современная профессиональная полная диагностика автомобилей по применению различных видов оборудования. </p>
+                    </div>
+                    <img src="./img/close.png" alt="close" class="img close-img">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">АВТОСЕРВИС</h3>
+                <div class="footer-img">
+                    <img src="./img/car1.jpg" alt="car1" class="footer-img__img">
+                    <img src="./img/car2.jpg" alt="car2" class="footer-img__img">
+                    <img src="./img/car3.jpg" alt="car3" class="footer-img__img">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
